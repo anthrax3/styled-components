@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from 'enzyme'
 
 import { resetStyled, expectCSSMatches } from './utils'
-import ThemeProvider from '../models/ThemeProvider'
+import ThemeProvider from '../../models/react/ThemeProvider'
 
 let styled
 

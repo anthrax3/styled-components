@@ -3,7 +3,7 @@ import expect from 'expect'
 import { shallow, mount } from 'enzyme'
 import jsdom from 'mocha-jsdom'
 
-import styleSheet from '../models/StyleSheet'
+import styleSheet from '../../models/StyleSheet'
 import { resetStyled, expectCSSMatches } from './utils'
 
 let styled

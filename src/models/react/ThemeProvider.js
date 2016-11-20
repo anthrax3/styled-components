@@ -2,8 +2,8 @@
 import React, { PropTypes, Component } from 'react'
 import isFunction from 'lodash/isFunction'
 import isPlainObject from 'lodash/isPlainObject'
-import createBroadcast from '../utils/create-broadcast'
-import type { Broadcast } from '../utils/create-broadcast'
+import createBroadcast from '../../utils/create-broadcast'
+import type { Broadcast } from '../../utils/create-broadcast'
 
 // NOTE: DO NOT CHANGE, changing this is a semver major change!
 export const CHANNEL = '__styled-components__'

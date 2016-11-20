@@ -2,9 +2,9 @@
 
 import { createElement } from 'react'
 
-import validAttr from '../utils/validAttr'
-import isTag from '../utils/isTag'
-import type { RuleSet, Target } from '../types'
+import validAttr from '../../utils/validAttr'
+import isTag from '../../utils/isTag'
+import type { RuleSet, Target } from '../../types'
 
 import AbstractStyledComponent from './AbstractStyledComponent'
 import { CHANNEL } from './ThemeProvider'

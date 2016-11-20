@@ -6,13 +6,13 @@ import css from './constructors/css'
 import injectGlobal from './constructors/injectGlobal'
 
 /* Import singleton constructors */
-import _styledComponent from './models/StyledComponent'
+import _styledComponent from './models/react/StyledComponent'
 import _styled from './constructors/styled'
 import _keyframes from './constructors/keyframes'
 import _ComponentStyle from './models/ComponentStyle'
 
 /* Import components */
-import ThemeProvider from './models/ThemeProvider'
+import ThemeProvider from './models/react/ThemeProvider'
 
 /* Instantiate singletons */
 const keyframes = _keyframes(generateAlphabeticName)

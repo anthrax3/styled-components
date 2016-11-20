@@ -1,8 +1,8 @@
 // @flow
 import { createElement } from 'react'
 
-import isTag from '../utils/isTag'
-import type { RuleSet, Target } from '../types'
+import isTag from '../../utils/isTag'
+import type { RuleSet, Target } from '../../types'
 
 import { CHANNEL } from './ThemeProvider'
 import InlineStyle from './InlineStyle'

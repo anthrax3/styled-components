@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import expect from 'expect'
 import { shallow } from 'enzyme'
 
-import injectGlobal from '../injectGlobal'
-import styleSheet from '../../models/StyleSheet'
-import { expectCSSMatches, resetStyled } from '../../test/utils'
+import injectGlobal from '../../injectGlobal'
+import styleSheet from '../../../models/StyleSheet'
+import { expectCSSMatches, resetStyled } from '../../../test/react/utils'
 
 let styled = resetStyled()
 const rule1 = 'width: 100%;'

@@ -4,10 +4,10 @@
  */
 import expect from 'expect'
 
-import _styled from '../constructors/styled'
-import styleSheet from '../models/StyleSheet'
-import _styledComponent from '../models/StyledComponent'
-import _ComponentStyle from '../models/ComponentStyle'
+import _styled from '../../constructors/styled'
+import styleSheet from '../../models/StyleSheet'
+import _styledComponent from '../../models/react/StyledComponent'
+import _ComponentStyle from '../../models/ComponentStyle'
 
 /* Ignore hashing, just return class names sequentially as .a .b .c etc */
 let index = 0
